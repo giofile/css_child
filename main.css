@@ -1,0 +1,52 @@
+
+body{
+    background-color: white;
+}
+.center{
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    margin: 50px;
+    font-weight: bold;
+
+}
+
+.ab{
+    float: left;
+    width: 15%;
+    height: auto;
+    list-style-type: none;
+    border: lightslategrey 1px solid;
+    background-color: lightslategrey;   
+  
+    
+}
+
+
+.ac{
+    float: left;
+    width: 15%;
+    list-style-type: none;
+    border: lightslategrey 1px solid;
+    background-color: lightslategrey;   
+
+
+}
+.ad{
+    float: left;
+    width: 15%;
+    list-style-type: none;
+    border: lightslategrey 1px solid;
+    background-color: lightslategrey;    
+
+}
+
+.ab li:nth-child(5n+1) {
+    background-color: lightsteelblue;
+}
+.ac li:nth-child(8) {
+    background-color: lightsteelblue;
+}
+.ad li:nth-child(-n+3), .ad li:nth-child(11), .ad li:nth-child(12), .ad li:nth-child(13)  {
+    background-color: lightsteelblue;
+}
